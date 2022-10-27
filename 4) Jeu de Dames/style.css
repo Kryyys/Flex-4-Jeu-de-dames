@@ -1,0 +1,164 @@
+/* MAIN */
+
+main {
+    width: 1000px;
+    height: auto;
+    display: flex;
+}
+
+
+
+/* PLATEAU */
+
+.plateau {
+    border: 10px solid brown;
+    border-style: groove;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: 
+    "a1 b1 a2 b2 a3 b3 a4 b4 a5 b5"  
+    "b6 a6 b7 a7 b8 a8 b9 a9 b10 a10"
+    "a11 b11 a12 b12 a13 b13 a14 b14 a15 b15"
+    "b16 a16 b17 a17 b18 a18 b19 a19 b20 a20"
+    "a21 . a22 . a23 . a24 . a25 ."
+    ". a26 . a27 . a28 . a29 . a30"
+    "a31 . a32 . a33 . a34 . a35 ."
+    ". a36 . a37 . a38 . a39 . a40"
+    "a41 . a42 . a43 . a44 . a45 ."
+    ". a46 . a47 . a48 . a49 . a50";
+}
+
+/* BOUTONS */
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.button1 {
+    background-color: rgb(241, 216, 147);
+    width: 205px;
+    height: 205px;
+    border: 10px solid brown;
+    border-style: groove;
+}
+
+.button2 {
+    width: 205px;
+    height: 205px;
+    border: 10px solid brown;
+    border-style: groove;
+}
+
+button {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+/* CASES */
+
+.blanc {
+    background-color: rgb(241, 216, 147);
+}
+
+
+.rond_blanc {
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.rond_noir {
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* CARRES BLANCS */
+
+.a1{grid-area: a1;}
+.a2{grid-area: a2;}
+.a3{grid-area: a3;}
+.a4{grid-area: a4;}
+.a5{grid-area: a5;}
+.a6{grid-area: a6;}
+.a7{grid-area: a7;}
+.a8{grid-area: a8;}
+.a9{grid-area: a9;}
+.a10{grid-area: a10;}
+.a11{grid-area: a11;}
+.a12{grid-area: a12;}
+.a13{grid-area: a13;}
+.a14{grid-area: a14;}
+.a15{grid-area: a15;}
+.a16{grid-area: a16;}
+.a17{grid-area: a17;}
+.a18{grid-area: a18;}
+.a19{grid-area: a19;}
+.a20{grid-area: a20;}
+.a21{grid-area: a21;}
+.a22{grid-area: a22;}
+.a23{grid-area: a23;}
+.a24{grid-area: a24;}
+.a25{grid-area: a25;}
+.a26{grid-area: a26;}
+.a27{grid-area: a27;}
+.a28{grid-area: a28;}
+.a29{grid-area: a29;}
+.a30{grid-area: a30;}
+.a31{grid-area: a31;}
+.a32{grid-area: a32;}
+.a33{grid-area: a33;}
+.a34{grid-area: a34;}
+.a35{grid-area: a35;}
+.a36{grid-area: a36;}
+.a37{grid-area: a37;}
+.a38{grid-area: a38;}
+.a39{grid-area: a39;}
+.a40{grid-area: a40;}
+.a41{grid-area: a41;}
+.a42{grid-area: a42;}
+.a43{grid-area: a43;}
+.a44{grid-area: a44;}
+.a45{grid-area: a45;}
+.a46{grid-area: a46;}
+.a47{grid-area: a47;}
+.a48{grid-area: a48;}
+.a49{grid-area: a49;}
+.a50{grid-area: a50;}
+
+/* RONDS BLANCS */
+
+.b1{grid-area: b1;}
+.b2{grid-area: b2;}
+.b3{grid-area: b3;}
+.b4{grid-area: b4;}
+.b5{grid-area: b5;}
+.b6{grid-area: b6;}
+.b7{grid-area: b7;}
+.b8{grid-area: b8;}
+.b9{grid-area: b9;}
+.b10{grid-area: b10;}
+.b11{grid-area: b11;}
+.b12{grid-area: b12;}
+.b13{grid-area: b13;}
+.b14{grid-area: b14;}
+.b15{grid-area: b15;}
+.b16{grid-area: b16;}
+.b17{grid-area: b17;}
+.b18{grid-area: b18;}
+.b19{grid-area: b19;}
+.b20{grid-area: b20;}
